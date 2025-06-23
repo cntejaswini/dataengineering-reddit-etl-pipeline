@@ -33,7 +33,9 @@ The pipeline includes the following components:
 * **Amazon Athena** – Runs SQL-based transformations directly on S3.
 * **Amazon Redshift** – Final destination for analytics-ready structured data.
 
-Architecture diagram available in `RedditDataEngineering.png`.
+Architecture diagram
+<img width="1356" alt="Screenshot 2025-06-23 at 11 31 10 AM" src="https://github.com/user-attachments/assets/f2ffd1d3-a44f-4be9-b6c1-cea83679a96a" />
+
 
 ---
 
@@ -95,12 +97,3 @@ http://localhost:8080
 
 Use Airflow to trigger and monitor the ETL DAG that processes Reddit data from extraction to loading in Redshift.
 
----
-
-## 🎥 Demo
-
-*(Include video walkthrough link or instructions for local testing/demo if applicable)*
-
----
-
-Let me know if you’d like a `README.md` file generated from this directly or want to push it to your GitHub.
